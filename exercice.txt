@@ -1,0 +1,15 @@
+Suppose that the university (UL) wants to organize the degrees it offers. The maximum number of degrees to be organized is 'n,' entered by the user. Each degree is represented by an identifier (a number), its name (e.g., Arts and Sciences), the name of the department offering the degree (e.g., Mathematics Department), the number of students in the degree, the number of credits required to obtain the degree, the cost of each credit, and the name of the degree's supervisor.
+
+Here are examples of two degrees: (5, Biomedical, Engineering, 30, 120, 500, "Ayash") (7, Maths, Arts and Sciences, 25, 130, 300, "Kader")
+
+Define the structure "Degree" to represent degrees.
+Write the function "void ReadDegrees(Degree Ldeg[], int n)" that prompts the user for information on 'n' degrees and stores it in the array Ldeg.
+Write a function to search the degrees array for a specific degree by its name. The degree's name and the list of degrees should be taken as parameters. If the degree is found, the function displays on the screen the degree's identifier, name, the department to which it belongs, the number of credits, and the total cost to obtain the degree (total = number of credits * cost per credit). If the degree is not found, the function displays on the screen that the degree is not found.
+Write a function to update the cost of a credit for a specific department. The function takes the degree's identifier and the new cost of its credit as parameters.
+Write a function that takes an array of degrees and the array's size as input and displays on the screen all information about all degrees in the array.
+Write a main program in which you:
+a. Declare an array of 5 degrees.
+b. Fill in the user's information about the degrees.
+c. Search for a degree whose name is entered by the user.
+d. Update the cost of a degree. The new cost and the degree's identifier are entered by the user.
+e. Display on the screen all information about the degrees in the declared array in (a)
